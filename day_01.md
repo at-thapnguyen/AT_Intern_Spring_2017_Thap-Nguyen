@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. **What is git, github, repository**
 - **Git** :Là mô hình quản lý các dữ liệu phân tán và quản lý các phiên bản của mô hình
 - **Github**: Github chính là một dịch vụ máy chủ repository công cộng, mỗi người có thể tạo tài khoản trên đó để tạo ra các kho chứa của riêng mình để có thể làm việc.
@@ -21,3 +22,7 @@
 7.  **Compare rebase and merge**
 - **Merge** : Kết hợp nhánh mới vào nhánh đang hoạt động
 -**rebase** :
+=======
+
+Hello,I'm Thap
+>>>>>>> 99c27559c8e9e0f9aacc34e04e29ec2da38c89f8
