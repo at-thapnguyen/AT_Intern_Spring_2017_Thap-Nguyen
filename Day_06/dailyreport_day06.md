@@ -2,18 +2,14 @@
 ####1. Ruby Loops :
 ### a. for loops :
 >for i in 0..100
-		#code
-	end
-	
-	
+	end	
 Example
-``` for i in 1..50
+for i in 1..50
 puts "#{i}"
 end```
 
- 
-###while loops :
- >>i = 1
+###b.while loops :
+ >i = 1
   while  i<=50
   puts "{i}"
   i+=1
