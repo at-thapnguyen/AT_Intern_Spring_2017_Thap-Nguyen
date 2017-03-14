@@ -19,7 +19,7 @@ end
   i+=1
   end 
   
-##Untill Loops:
+## Untill Loops:
 >> i	=	1
 loop	do
 puts	"#{i}"
