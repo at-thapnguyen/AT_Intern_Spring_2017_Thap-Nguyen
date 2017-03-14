@@ -1,24 +1,108 @@
-Daily report day 05
+###DAILY REPORT 14-03-2017
+####1. Ruby Loops :
+### a. for loops :
+>for i in 0..100
+		#code
+	end
+	
+	
+Example
+``` for i in 1..50
+puts "#{i}"
+end```
 
-##HTML HTML is the standard markup language for creating Web pages and describes the structure of Web pages using markup. First mentioned on the Internet by Tim Berners-Lee in late 1991.
+ 
+###while loops :
+ >>i = 1
+  while  i<=50
+  puts "{i}"
+  i+=1
+  end 
+  
+##Untill Loops:
+>> i	=	1
+loop	do
+puts	"#{i}"
+i	+=	1
+break	if	i	>	50
+end 
 
-###Structure
+###d. times iterator loop
+  **Systax:** 
+>a.times do
+end
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
-</head>
-<body>
+Example 
+``` 5.times	do
+end ```
 
-</body>
-</html>
+*** If you want to exit LOOPS you should "Break"**
 
-Tag !Doctype it was use declare html5 to browser. It is not html tag. Tag head contains information of website Tag body contains content of website
+####2. Control	Flow	in	Ruby
+###a.If Statements
+ **Syntax:**
+>if conditional
+		#do some thing
+	end 
+	
+**IF YOU WANT WRITE CODE IN LINE :**
 
+>puts "1 codeline" if true
 
+ EXAMPLE
+ ``` if	4	<	5
+puts	"Four	is	less	than	five."
+end ```
+###b. If/else Statements
+**Systax:**
+>if conditional
+		#do some thing
+	else
+		#do some thing when false
+	end
+
+ **Example :**
+``` if	4	<	5
+puts	"Four	is	less	than	five."
+else 
+puts "Five is bigger than four"
+end ```
+
+###Elseif Statements
+**Example:**
+```if	x	<	y		
+puts	"x	is	less	than	y!"
+elsif	x	>	y
+puts	"x	is	greater	than	y!"
+else
+puts	"x	equals	y!"
+end ```
+### unless Statements
+```hungry	=	false
+unless	hungry
+puts	"Let’s	go	draw	a	picture!"
+else
+puts	"Let’s	go	get	some	food."
+end ```
+###3. Variables 
+###a. Ruby Global Variables : 
+- Begin with $
+
+Example :
+``` $global_variable	=	10
+class	Class
+		def	print_global
+	puts	"This is global variable"
+		end ```
+###b. Ruby Instance Variables :
+- Instance	variables	begin	with	@
+
+``` class	Customer
+	def	initialize(id,	name,	addr)
+	@cust_id=id
+	@cust_name=name
+	@cust_addr=addr
+	end ```
+	
 			
   
