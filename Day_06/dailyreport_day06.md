@@ -7,13 +7,13 @@
 	
 	
 Example
-``` for i in 1..50
+for i in 1..50
 puts "#{i}"
-end```
+end
 
  
-###while loops :
- >>i = 1
+### while loops :
+ >i = 1
   while  i<=50
   puts "{i}"
   i+=1
