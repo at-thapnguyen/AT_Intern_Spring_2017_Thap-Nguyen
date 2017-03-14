@@ -1,4 +1,4 @@
-###DAILY REPORT 14-03-2017
+**DAILY REPORT 14-03-2017
 ####1. Ruby Loops :
 ### a. for loops :
 **Systax:
@@ -24,8 +24,8 @@ end
 >> i	=	1
 loop	do
 puts	"#{i}"
-i	+=	1
-break	if	i	>	50
+i += 1
+break	if i > 50
 end 
 
 ### d.Times iterator loop
