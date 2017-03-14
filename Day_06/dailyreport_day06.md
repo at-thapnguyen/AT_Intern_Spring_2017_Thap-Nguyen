@@ -3,7 +3,9 @@
 ***1. Ruby Loops :
 
 ***a. for loops :
+
 **Systax:
+
 >for i in 0..100
 		#code
 	end
