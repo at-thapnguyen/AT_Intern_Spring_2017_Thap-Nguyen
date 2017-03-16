@@ -1,4 +1,4 @@
-—————DAILYREPORT_16-03-2017——————
+***—————DAILYREPORT_16-03-2017——————
 
 Ruby has four types of variable scope :
 
@@ -12,7 +12,7 @@ Local :[a-z] or _
 
 Constant : Upcases
 
-A.ARRAYS : 
+**A.ARRAYS : 
 1. Arrays :
 
 Arrays are ordered, integer-indexed collections of any object.
@@ -21,11 +21,11 @@ An Array is created by separating values by commas , and enclosing this list wit
 
 Arrays are like bags that contain all kinds of objects 
 
-Syntax: 
+**Syntax: 
 
 a = [1, 2, 3]
 
-2. Ruby collect,ruby map,ruby select 
+**2. Ruby collect,ruby map,ruby select 
 
 Example: 
 
@@ -33,13 +33,13 @@ list = (1..10).to_a
 
 put list 
 
-Ruby collect 
+**Ruby collect 
 
 puts list.collect { |i| i >= 3 && i <= 7 }
 
 Result : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-RubySelect :use to retrieve the elements that satisfy the condition. 
+**RubySelect :use to retrieve the elements that satisfy the condition. 
 
 puts list.select { |i| i >= 3 && i <= 7}
 
@@ -47,7 +47,7 @@ puts list.select { |i| i >= 3 && i <= 7}
 
 Result :[false, false, true, true, true, true, true, false, false, false]
 
-- Ruby map: 
+**Ruby map: 
 
 puts list.map { |i| i >= 3 && i <= 7 }
 
@@ -55,7 +55,7 @@ puts list.map { |i| i >= 3 && i <= 7 }
 
 Result : [3, 4, 5, 6, 7]
 
-3. Add Array 
+**3. Add Array 
 
 a=[1, 2] 
 
@@ -67,7 +67,7 @@ puts a+b
 
 Result :[1, 2, 3, 4]
 
-4. Hash 
+***4. Hash 
 
 Systax:
 
@@ -85,7 +85,7 @@ hash.reject {|k,v| k < “b”} #=> {“b” => 200, “c” => 300}
 
 hash.reject {|k,v| v > 100} #=> {“a” => 100}
 
-5. Symbol:
+***5. Symbol:
 
 
 
