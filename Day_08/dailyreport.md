@@ -1,9 +1,13 @@
 **---------------DAILYREPORT_16-03-2017------------------**
 1. Ruby has four types of variable scope : 
 >instance : @
+
 >Global : $
+
 >Class : @@
+
 >Local :[a-z] or _
+
 >Constant : Upcases
 
 	**A.ARRAYS :**
