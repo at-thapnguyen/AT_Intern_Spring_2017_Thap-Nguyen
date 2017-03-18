@@ -6,10 +6,10 @@
 
 -  **What is the required attribute in `form`?**
 
-> In <form> required "action"  parameter.
-- One <input> may contain components  such as text fields, checkboxes, radio-buttons, submit buttons, ... 
-- One <form> can also contain <select>, <textarea>, <fieldset>, <legend>, and <label> elements.
-- In <form>may also contain other tags 
+> In ```<form>``` required "action"  parameter.
+- One ```<input>``` may contain components  such as text fields, checkboxes, radio-buttons, submit buttons, ... 
+- One ```<form>```can also contain ```<select>```, ```<textarea>```,``` <fieldset>```,``` <legend>```, and ```<label>``` elements.
+- In ```<form>```may also contain other tags.
 
 - **CSS**
   **- What's the difference between inline and inline-block?**
