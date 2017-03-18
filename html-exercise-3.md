@@ -32,12 +32,16 @@
   >- pseudo-class : 
   
   >selector:pseudo-class {
+  
     property:value;
+
 } 
 
   >- pseudo-element : 
   > selector::pseudo-element {
+  
     property:value;
+
 }
 
   >- pseudo classes that apply to all elements, or the status of the element while the pseudo elements aimed to apply for a portion of the element. 
