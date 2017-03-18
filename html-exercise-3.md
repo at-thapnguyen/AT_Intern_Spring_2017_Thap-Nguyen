@@ -6,12 +6,12 @@
 
 -  **What is the required attribute in `form`?**
 
-> In  <form>  required  "action"  parameter.
+> In <form> required "action"  parameter.
 - One <input> may contain components  such as text fields, checkboxes, radio-buttons, submit buttons, ... 
 - One <form> can also contain <select>, <textarea>, <fieldset>, <legend>, and <label> elements.
 - In <form>may also contain other tags 
 
-	- **CSS**
+- **CSS**
   **- What's the difference between inline and inline-block?**
   
   >- The attribute display: inline; :  this is the default format and the component that will display on the same line (inline, no line break).
