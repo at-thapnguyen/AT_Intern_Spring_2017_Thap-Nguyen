@@ -30,14 +30,15 @@
  **- What's the difference between a pseudo-class and a pseudo-element**
  
   >- pseudo-class : 
-  
-  >selector:pseudo-class {
+  **Systax** :
+  > selector:pseudo-class {
   
     property:value;
 
 } 
 
   >- pseudo-element : 
+  
   > selector::pseudo-element {
   
     property:value;
