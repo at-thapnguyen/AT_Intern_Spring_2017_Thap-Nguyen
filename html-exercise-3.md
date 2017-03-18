@@ -30,6 +30,7 @@
  **- What's the difference between a pseudo-class and a pseudo-element**
  
   >- pseudo-class : 
+  
   >```selector:pseudo-class {
     property:value;
 } ```
