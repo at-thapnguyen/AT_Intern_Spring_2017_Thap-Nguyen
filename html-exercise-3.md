@@ -31,14 +31,14 @@
  
   >- pseudo-class : 
   
-  >```selector:pseudo-class {
+  >selector:pseudo-class {
     property:value;
-} ```
+} 
 
   >- pseudo-element : 
-  >```selector::pseudo-element {
+  > selector::pseudo-element {
     property:value;
-}```
+}
 
   >- pseudo classes that apply to all elements, or the status of the element while the pseudo elements aimed to apply for a portion of the element. 
   
@@ -46,6 +46,7 @@
   
 >Visibility and display are attributes determine the components that are visible or not.
 >visibility:hidden; is the component will not be visible on the browzer but essentially they still show.
+
 >display:none; : the component will not be visible completily  on the browzer  
 
 ### Playground
