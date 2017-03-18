@@ -31,6 +31,7 @@
  
   >- pseudo-class : 
   **Systax** :
+  
   > selector:pseudo-class {
   
     property:value;
@@ -39,6 +40,8 @@
 
   >- pseudo-element : 
   
+    **Systax** :
+    
   > selector::pseudo-element {
   
     property:value;
