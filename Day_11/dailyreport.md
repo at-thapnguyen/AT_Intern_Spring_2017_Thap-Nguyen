@@ -25,9 +25,8 @@
 >  < group-rule-body>
 >}		
 
-	**Note :**
-- When you use `@media` , you should declare `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-- `@media` use `min-width` and `max-width`
+**Note :**- When you use `@media` , you should declare `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+- `@media` use `min-width` 
 
 **2. CSS pre-proccessors**
 
@@ -38,6 +37,7 @@
 - Easily fix code
 
 **In general, every CSS Preprocessor supports following features:**
+
 1 Nested :The stacking rules will help you synchronize the components together
 
 2. Variable :The variable is one of the useful features that SASS provides. With Sass you can declare a variable and reuse them as needed.
