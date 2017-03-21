@@ -78,16 +78,22 @@ If you want to edit the css file you need only  edit in scss.
   
   `**- Describe about rules to working with SASS?**
 1. Nested :The stacking rules will help you synchronize the components together
+
 2. Variable :The variable is one of the useful features that SASS provides. With Sass you can declare a variable and reuse them as needed.
 3. Extends :This is a feature that helps you use multiple attributes declared in CSS.
 
 - **Bonus**
 
  - **How do you see "mobile-first" approach in modern web design?:**
+ 
 		  - Mobile-first means we will focus on mobile devices before and after that new interfaces for Desktop. Technically, we do the following steps: 
+		  
 		  -  Write CSS for elements Overall, these elements will never change whether in the mobile or desktop interface (font color, background, .. ). 
+		  
 		  -  Writing interfaces for mobile. 
+		  
 		  -  Writing interface for tablets. 
+		  
 		  -  Writing interfaces for Desktop.
   - **SMACSS**
   - **BEM**
