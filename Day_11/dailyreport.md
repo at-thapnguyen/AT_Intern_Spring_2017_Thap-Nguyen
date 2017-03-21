@@ -9,14 +9,23 @@
 - ***@font-face*** : Embed a custom web font.
 
 > **Systax :**
+
 >  @font-face {
+
 	font-family:< font-familyname>
+	
 	src :< url>
+	
 	font-variant : < font-variant>
+	
 	font-stretch :< font-stretch>
+	
 	font-weight : < weight>
+	
 	font-style: < style>
+	
 	unicode-range : < urange>
+	
 }
 
 - ***@media*** : Apply this style only for printting.
