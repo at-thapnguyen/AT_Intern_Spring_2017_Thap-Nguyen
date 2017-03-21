@@ -69,7 +69,9 @@ If you want to edit the css file you need only  edit in scss.
 
   **- How to write `pseudo-elements` and `pseudo-classes` in Sass?**
   
-  **- Describe about rules to working with SASS?**
+  Use symbol `&` to write `pseudo-elements` and `pseudo-classes` in Sass
+  
+  `**- Describe about rules to working with SASS?**
 1. Nested :The stacking rules will help you synchronize the components together
 2. Variable :The variable is one of the useful features that SASS provides. With Sass you can declare a variable and reuse them as needed.
 3. Extends :This is a feature that helps you use multiple attributes declared in CSS.
