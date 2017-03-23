@@ -41,7 +41,7 @@ body {
 
 .text_service {
   margin-top: -15px 0px;
-  font-size: 12px; }
+  font-size: 13px; }
 
 nav {
   margin-right: 10%;
@@ -81,22 +81,35 @@ a:last-child {
 .tour_nuoc_ngoai {
   margin-left: 5px; }
 .tour_nuoc_ngoai img {
-  margin-right: 20px;
+margin-right: 20px;
 width: 395px;
 height: 180px;
-
 }
 .tour {
   height: 220px;
   width: 400px; }
+
+strong.giatour {
+margin-top:10px;
+margin-left: 20px;
+color:#0000FF;
+font-size: 20px;
+}
+h3 {
+  margin-top: 10px;
+  margin-left: 20px;
+
+  text-transform: uppercase;
+}
 
 .art {
 	border-radius: 10px;
   box-sizing: border-box;
   margin-right: 25px; }
 
-.art:last-child {
-  margin-right: 0px; }
+article.art:nth-child(4n){
+  
+  margin-right :0px; }
 
 .tour_image {
   height: 210px;
@@ -119,11 +132,13 @@ div.background_nb {
 div.background_tn{
   @extend %background_main; 
   margin-left: 25px;
+  margin-right: 2%;
   background: url(../images/tourtrongnuoc.jpg) ;
 }
 div.background_nn{
 	@extend %background_main; 
-	margin-right: 2%;
+  
+  margin-right: 2%;
 
   background: url(../images/tournuocngoai.jpg) ;
 }
@@ -159,16 +174,50 @@ margin-top: 45px;
 }
 .info{
 	margin-left: 110px;
+  
+font-size: 20px;
 }
+ul.info {
+  padding-left: 30px;
+}
+
 .community{
 	margin-left: 110px;
-}
+  font-size: 20px;
+   }
+  a.community
+  {
+    text-decoration: none;
+  }
 .contact{
-	margin-right: 160px;
+	margin-right: 60px;
+  margin-left: 50px;
 	width: 500px;
 }
-.txt{
-	margin-left: 90px;
+span{
+font-size:20px;
+color:#30b549;
+
 }
+.txt{
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-right: -20px;
+  margin-top: 60px;
+}
+img.img-mail {
+  width: 80px;
+  margin-bottom: -15px;
+  height: 40px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+}
+a:link { 
+text-decoration: none; 
+}   
+
 
   
