@@ -2,7 +2,7 @@ class Ex3
   attr_accessor :arr1, :arr2
 
   def input
-    @arr1 = ["arp", "live", "strong","arm"]
+    @arr1 = ["meo", "live", "strong","arm"]
 
     @arr2 = ["lively", "alive", "harp", "sharp", "armstrong"]
   end
@@ -16,7 +16,7 @@ class Ex3
         end
       end
     end
-    print "sub array is :" , result.uniq.to_s ,"\n"
+    print "sub array is : #{result.uniq.to_s}\n"
   end
 end
 ex3 = Ex3.new

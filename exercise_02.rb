@@ -18,15 +18,14 @@ class Ex2
 
   def check_time
     arr = @time.split(':') #
-    @hour = arr.at(0).to_i
-    @minute = arr.at(1).to_i
-    @second = arr.at(2).to_i
+    @hour = arr[0].to_i
+    @minute = arr[1].to_i
+    @second = arr[2].to_i
     if @second >= 60
       @minute += @second/60
       @second %= 60
-
     end
-
+    
     if minute >= 60
       @hour += minute/60
       @minute %= 60
