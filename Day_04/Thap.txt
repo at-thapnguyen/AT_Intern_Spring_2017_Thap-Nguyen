@@ -1,0 +1,4 @@
+My name is Thap
+My team is Kien
+My mentor is Ruby
+My link github is https://github.com/at-thapnguyen/AT_Intern_Spring_2017_Thap-Nguyen/tree/develop
