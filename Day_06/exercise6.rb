@@ -24,5 +24,5 @@ def input_number
   
 end
 
-priNum = PrimeNumber.new()
-puts priNum.input_number
+prim_num = PrimeNumber.new()
+puts prim_num.input_number
