@@ -8,20 +8,12 @@ def input_number
   
   def prime_number(number)
 
-    if number <= 2
-      return false
-    elsif number > 2
-      for i in 2..Math.sqrt(number)
-        if number % 2 == 0
-          return false
-        end
-      end
-      return true
-    end
-  end
-
-
-  
+    return false if number <= 2
+    
+   return false if number.even?
+       
+    return true
+end
 end
 
 prim_num = PrimeNumber.new()
