@@ -22,7 +22,7 @@ class Report
       select = gets.chomp
       case select
       when 'n'
-        puts "Please check your input file in this path: #{ @path }"
+        puts "Please check your input file in this path: #{@path }"
       else
       end
     end

@@ -17,7 +17,7 @@ class Info
   end
 
   def create_info_file
-    f = File.new("#{name}"+".txt", "w+")
+    f = File.new("#{name.txt}", "w+")
     self.instance_variables.each_with_index do |attribute , index|
       f.write(set_file_template[index] + (self.instance_variable_get attribute) + "\n")
     end
