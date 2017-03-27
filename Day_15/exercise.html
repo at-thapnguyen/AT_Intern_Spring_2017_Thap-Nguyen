@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DOM & BOM</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <div id="js-hello">
+    <input type="text" name="js-name" value="">
+    <button type="button" name="button" onclick="submit()">Show Member</button>
+    <h1>MEMBERS</h1>
+    <ul id="js-member" name="js-member">
+
+    </ul>
+  </div>
+  <script type="text/javascript">
+    var members = [];
+    var obj = document.getElementsByName('js-name');
+    content = document.getElementById("js-member");
+
+    function showMember() {
+      var html='';
+      size = members.length-1;
+      content.innerHTML = '';
+      for (var i = 0; i <= size; i++) {
+        // html += '<li>' + members[i] + '</li>'
+
+        var li = document.createElement('li');
+
+        li.innerHTML = members[i];
+
+        content.appendChild(li);//chen them li vao cuoi phan tu 
+      }
+      // content.innerHTML = html;
+    }
+
+    function submit() {
+      console.log(obj[0].value);
+      members.push(obj[0].value);
+      showMember();
+    }
+  </script>
+</body>
+</html>
