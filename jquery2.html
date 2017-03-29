@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JQUERY</title>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+  
+
+</head>
+<body>
+ <script>
+ 	$(document).ready(function(){
+
+      $("#btn1").click(function(){
+
+        $("#list").append("<li>"+ $("#jq-member").val()
+          + "<button class='btn' type='button'>Delete</button></li>");
+      });
+
+      $(document).on('click', '.btn',function() {
+        $(this).parent().remove();
+        alert("Are you sure delete member?");
+      });
+
+    });
+ </script>
+ 
+  
+  
+ 
+<input type="text" name="" id="jq-member">
+<button id="btn1">add member</button>
+<h1>LIST MEMBER</h1>
+ <ul id="list">
+  </ul>
+</body>
+</html>
