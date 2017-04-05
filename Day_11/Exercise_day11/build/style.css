@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box; }
+
+strong {
+  color: #ffa800; }
+
+.content, .footer {
+  margin: 0px 10%;
+  width: 80%; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+body {
+  box-sizing: border-box;
+  width: 1600px; }
+
+/*---Header---*/
+.header {
+  width: 100%;
+  height: 290px;
+  background-image: url("../images/banner.jpg");
+  position: relative; }
+
+.content_header {
+  background-color: #fff;
+  height: 110px; }
+
+.logo {
+  width: 15%;
+  margin-left: 10%; }
+
+.service {
+  margin-right: 10%; }
+
+.text_service {
+  margin-top: -15px 0px;
+  font-size: 13px; }
+
+nav {
+  margin-right: 10%;
+  box-sizing: border-box; }
+
+.cover_img {
+  height: 180px; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  color: black;
+  box-sizing: border-box; }
+
+li.nav {
+  float: right; }
+
+li.nav a {
+  text-transform: uppercase;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none; }
+
+li.nav a:hover {
+  border-bottom: 2.5px solid #ffa800; }
+
+li.nav a:last-child {
+  padding: none; }
+
+a:last-child {
+  padding-right: 0px; }
+
+/*---Content---*/
+.show_tour {
+  margin-top: 30px; }
+
+.tour_nuoc_ngoai {
+  margin-left: 5px; }
+
+.tour_nuoc_ngoai img {
+  margin-right: 20px;
+  width: 395px;
+  height: 180px; }
+
+.tour {
+  height: 220px;
+  width: 400px; }
+
+strong.giatour {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #0000FF;
+  font-size: 20px; }
+
+h3 {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-transform: uppercase; }
+
+.art {
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 25px; }
+
+article.art:nth-child(4n) {
+  margin-right: 0px; }
+
+.tour_image {
+  height: 210px;
+  width: 295px; }
+
+main {
+  margin-top: 50px; }
+
+div.background_nb, div.background_tn, div.background_nn {
+  height: 220px;
+  width: 400px;
+  position: relative;
+  margin-bottom: 30px; }
+
+div.background_nb {
+  background: url(../images/tournoibat.jpg); }
+
+div.background_tn {
+  margin-left: 25px;
+  margin-right: 2%;
+  background: url(../images/tourtrongnuoc.jpg); }
+
+div.background_nn {
+  margin-right: 2%;
+  background: url(../images/tournuocngoai.jpg); }
+
+div.transbox {
+  height: 220px;
+  width: 400px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); }
+
+div.transbox:hover {
+  background-color: lightblue; }
+
+div.transbox h3 {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding-left: 50px;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000; }
+
+/*-------------*/
+footer {
+  height: 200px;
+  margin-top: 45px; }
+
+.logo_footer {
+  margin-left: 110px; }
+
+.info {
+  margin-left: 110px;
+  font-size: 20px; }
+
+ul.info {
+  padding-left: 30px; }
+
+.community {
+  margin-left: 110px;
+  font-size: 20px; }
+
+a.community {
+  text-decoration: none; }
+
+.contact {
+  margin-right: 60px;
+  margin-left: 50px;
+  width: 500px; }
+
+span {
+  font-size: 20px;
+  color: #30b549; }
+
+.txt {
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-right: -20px;
+  margin-top: 60px; }
+
+img.img-mail {
+  width: 80px;
+  margin-bottom: -15px;
+  height: 40px; }
+
+input {
+  width: 300px;
+  height: 40px; }
+
+a:link {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
