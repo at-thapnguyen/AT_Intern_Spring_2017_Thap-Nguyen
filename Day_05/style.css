@@ -1,0 +1,140 @@
+.clr{
+  clear:both;
+}
+.wrapper{
+  border-bottom: 1px solid #b2b2b2;
+  padding-bottom: 50px;
+}
+.logobanner {
+  background:url(image/banner.jpg) ;
+  height: 120px;
+  width: 1175px;
+  padding-left: 100px;
+  padding-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+.content {
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+.content-left{
+  float: left;
+  width: 315px;
+}
+.content-left ul li {
+  list-style: none;
+}
+.content-left ul li p {
+
+  width:260px;
+  height: 30px;
+  padding-left:15px;
+  padding-top: 15px;
+  background-color: #c1c1c1
+}
+
+
+.logoleft{
+  float: left;
+}
+.left{
+  float: left;
+  width: 800px;
+  margin-left: 120px;
+}
+
+.logoleft img {
+  width: 120px;
+  height: 100px;
+}
+.content-icon img
+{
+  width: 30px;
+  height: 30px;
+
+}
+
+.logoright img {
+  width: 40px;
+  height: 40px;
+  float:left;
+}
+.right p{
+  padding-top: 30px;
+}
+.nav ul li {
+  list-style:none;
+  float: left;
+  padding: 5px 20px;
+  border-right:1px solid #bbb;
+  color: #07bda4;
+}
+.nav ul {
+  float: left;
+  margin-right: 100px;
+}
+
+#list-cate {
+  list-style-type: disc;
+  margin-top: 10px;
+}
+.form {
+ background-color: #c1c1c1
+}
+.form input {
+  margin-left: 20px;
+  width: 200px;
+  height: 25px;
+}
+#button_submit {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  background-color: green;
+  color: white;
+}
+.content-right{
+  width: 1200px;
+}
+.content-small{
+  float: left;
+  width: 230px;
+  height: 370px;
+  margin-left: 60px;
+  border: 1px solid #c1c1c1;
+  margin-top:20px;
+  text-align: left;
+}
+.content-small .images-content {
+width: 230px;
+}
+#icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+.content-small p {
+  margin-left: 7px;
+}
+.content-footer{
+
+float: left;
+padding-left: 30px;
+}
+.content-footer .content-icon img{
+
+  width: 20px;
+  height:20px;
+}
+.footer {
+  width: 1275px;
+  background-color: #07bda4;
+  margin-top: 20px;
+}
