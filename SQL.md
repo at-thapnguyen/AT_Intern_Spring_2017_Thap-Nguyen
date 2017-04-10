@@ -120,7 +120,9 @@ WHERE SALARY > 2000 AND MONTHS <10
 ORDER BY EMPLOYEE_ID ASC;`
  
 #####Advanced Select Challenges
+
 20. Write a query identifying the type of each record in the TRIANGLES table using its three side lengths. Output one of the following statements for each record in the table:
+
 Not A Triangle: The given values of A, B, and C don't form a triangle.
 Equilateral: It's a triangle with  sides of equal length.
 Isosceles: It's a triangle with  sides of equal length.
