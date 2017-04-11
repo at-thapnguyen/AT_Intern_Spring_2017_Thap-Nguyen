@@ -36,14 +36,41 @@
 
 **4.  Which Object Oriented terms are supported by TypeScript? Write an example.**
 
+**Abstraction**
+
+>class Animal {
+    constructor(public name) { }
+    makeSound(input : string) : string;
+}
+
+>class Dog extends Animal {
+    constructor(name) { super(name); }
+    makeSound(input : string) : string {
+        return `${name} : ${input}`;
+    }
+}
+
+**Encapsulation :**
+
+> private money: number;
+get Money(): number {
+    return this.money;
+}
+set Money(money: number) {
+    this.money = money ;
+}
+
+**Inheritance:**
+
+> class Parent{ }
+class Child extend Parent{ }
+
   **5. How do you implement inheritance in TypeScript? Write an example.**
 
 - Inheritance in JavaScript does not look like any object-oriented language because it revolves around the concept `prototype` (prototypal inheritance). 
 
 But with TypeScrip, inheritance 1 completely simple class with the `extends` keyword.
 Example :
-
-
 
 **ES6**
   - Write an example for each of the following new features in ES6:  `Block scope variable` `Template Literals` `Multi-line strings` `Arrow functions` `For...of` `Default parameters`
