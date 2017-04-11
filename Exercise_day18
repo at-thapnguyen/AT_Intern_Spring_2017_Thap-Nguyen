@@ -1,0 +1,111 @@
+####EXERCISE FRONTEND DAY_19(07-04-2017)
+
+- **Typescript**
+
+**1. What is TypeScript and Why do we need it?**
+
+**What is TypeScript**
+-  Typescript is an open sourced programming language that is developed and being maintained by Microsoft.
+-  Typescript can use to develop applications that run in client-side (Angular2) and server-side (NodeJS).
+-  
+  **Why do we need it?**
+ - Ease developing major projects: using the latest techniques and object-oriented programming so typescript help us to develop large projects easily.
+
+ - Multiple Framework choices: JavaScript Framework Currently the gradually encouraged to use the typescript to development, such as the Ionic AngularJS 2.0 and 2.0. 
+
+ - Support the features of JavaScript to the latest version: typescript always ensure the full use of the latest techniques of JavaScript (ES6) 
+
+ - As open source: typescript is an open source, so you can fully use no charge
+
+ - Typescript is javscript: The nature of the typescript is the compiler generates the javascript code, so you can run wherever if it installed JavaScript.
+
+**2.  How can you get TypeScript and install it?**
+
+1. You should install Nodejs :
+
+- `sudo apt-get install nodejs`
+- `sudo apt-get install npm`
+
+2. Run the following command to install TypeScript :
+
+`npm install -g typescript`
+
+**3.  How do you compile TypeScript files?**
+  
+1. You save code typescript in file .ts
+
+2. Run the following command to compile TypeScript files :
+  `tsc --watch namefiletypescript.ts`
+
+**4.  Which Object Oriented terms are supported by TypeScript? Write an example.**
+
+**Abstraction**
+
+>class Animal {
+    constructor(public name) { }
+    makeSound(input : string) : string;
+}
+
+>class Dog extends Animal {
+    constructor(name) { super(name); }
+    makeSound(input : string) : string {
+        return `${name} : ${input}`;
+    }
+}
+
+**Encapsulation :**
+
+> private money: number;
+get Money(): number {
+    return this.money;
+}
+set Money(money: number) {
+    this.money = money ;
+}
+
+**Inheritance:**
+
+> class Parent{ }
+class Child extend Parent{ }
+
+  **5. How do you implement inheritance in TypeScript? Write an example.**
+
+- Inheritance in JavaScript does not look like any object-oriented language because it revolves around the concept `prototype` (prototypal inheritance). 
+
+- But with TypeScrip, inheritance 1 completely simple class with the `extends` keyword.
+
+Example :
+
+> class Sport {
+>  private _name : string ;
+>  constructor(name:string){
+>  this._name = name; 
+>  }
+>  }
+>  
+>  class Football extends Sport{
+>  constructor(name:string){
+>  super(name);
+>  }
+>  }
+
+**ES6**
+
+  - Write an example for each of the following new features in ES6:  `Block scope variable` `Template Literals` `Multi-line strings` `Arrow functions` `For...of` `Default parameters`
+
+- **`Template Literals`**
+
+ > var $name = 'ThapNguyen';
+ > var $html = '<div>' + $name + '</div>';
+ 
+- **`For...of`**:
+
+>var arr = [1,2,3];  
+>for (var i=0; i<=arr.length; i++) {  
+>console.log(arr[i]);
+>}
+
+- **`Arrow functions`**
+
+>const arr = [1, 2, 3];  
+>let squares = arr.map((x) => x * x ) 
