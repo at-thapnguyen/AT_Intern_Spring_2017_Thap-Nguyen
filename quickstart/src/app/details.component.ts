@@ -1,5 +1,5 @@
 import { Component ,Input} from '@angular/core';
-import {TrainerService} from './trainers.service';
+import { TrainerService } from './trainers.service';
 @Component({
   selector: 'trainerdetail',
   templateUrl: './template/details.html'

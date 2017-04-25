@@ -1,6 +1,6 @@
-import {TrainerService} from './trainers.service';
+import { TrainerService } from './trainers.service';
 import { Component } from '@angular/core';
-import {Http} from '@angular/http';
+import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 
