@@ -1,0 +1,19 @@
+<h2>SelectedItems</h2>
+<table *ngIf="trainers[selected]">
+  <tr>
+    <td>Name:</td>
+    <td>{{trainers[selected].name}}</td>
+  </tr>
+  <tr>
+    <td>Team:</td>
+    <td>{{trainers[selected].team}}</td>
+  </tr>
+  <tr>
+    <td>Avatar:</td>
+    <td>{{trainers[selected].avatar}}</td>
+  </tr>
+  <tr>
+    <td>Joined:</td>
+    <td>{{trainers[selected].joined}}</td>
+  </tr>
+</table>

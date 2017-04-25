@@ -1,0 +1,49 @@
+<h2>MEMBER</h2>
+<form [formGroup]="memberForm" (ngSubmit)="addMember()" style="margin-left: 50px;margin-top: 20px;">
+  <fieldset>
+    <label for="firstname">First Name</label>
+    <input type="text" style="width: 400px;" class="form-control"
+    [formControl]="firstname" id="firstname" >
+    <div [hidden]="firstname.valid">
+    <div style="color: red" [hidden]="!firstname.hasError('required')">
+      The firstname is required.
+    </div>
+    </div>
+    <label for="lastname" style="margin-top: 20px;">Last Name</label>
+    <input type="text" style="width: 400px;" class="form-control"
+    [formControl]="lastname" id="lastname" >
+    <div [hidden]="lastname.valid">
+    <div style="color: red" [hidden]="!lastname.hasError('required')">
+      The lastname is required.
+    </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <label for="email" style= "margin-top: 20px;" >Email</label>
+    <input type="text" style="width: 400px;" class="form-control"
+    [formControl]="email" id="email">
+    <label for="github" style= "margin-top: 20px;" >Gihub</label>
+    <input type="text" style="width: 400px;" class="form-control"
+    [formControl]="github" id="github">
+  </fieldset>
+  <button type="submit" class="btn btn-success" [disabled]="!memberForm.valid" style="margin-top: 30px;">Create</button>
+</form>
+<table class="table" style="margin-top: 40px;">
+  <thead>
+    <tr class="info">
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Github</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let i of member">
+      <td>{{i.firstname | uppercase}}</td>
+      <td>{{i.lastname | uppercase}}</td>
+      <td>{{i.email}}</td>
+      <td>{{i.github}}</td>
+    </tr>
+  </tbody>
+</table>

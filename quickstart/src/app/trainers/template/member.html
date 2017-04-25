@@ -1,0 +1,28 @@
+<table class="table table-bordered">
+<caption><h2>{{team_name}} Members</h2></caption>
+ <thead>
+   <th>Name</th>
+   <th>Team</th>
+   <th>Avatar</th>
+   <th>Joined</th>
+ </thead>
+<tbody>
+  <tr *ngFor="let trainer of trainers| teamname:team_name; let index = index">
+    <td>{{trainer.name}}</td>
+    <td>{{trainer.team}}</td>
+    <td>{{trainer.avatar}}</td>
+    <td>{{trainer.joined}}</td>
+    <td><button type= "button" (click)="showDetail(index)">Click</button></td>
+  </tr>
+</tbody>
+</table>
+<my-detail [selected]="listItem"></my-detail>
+<!--
+<tr *ngFor="let i of trainers| teamname:input_name; let index = index">
+    <td>Name:</td>
+    <td>{{i.name}}</td>
+    <td>Team:</td>
+    <td>{{i.team}}</td>
+    <td><button type= "button" (click)="showDetail(index)">Click</button></td>
+  </tr>
+ -->
